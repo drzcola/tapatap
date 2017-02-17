@@ -186,6 +186,7 @@
                     circles[i].fillColor.hue += 1;
                     circles[i].scale(.8);
                     if (circles[i].area < 1) {
+                        circles[i].fillColor = "#2f1233";
                         circles[i].remove;
                         circles.splice(i, 1);
                         console.log(circles);
